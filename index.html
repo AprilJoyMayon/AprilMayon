@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Website design with flexbox</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<header> 
+		<h2><a href="#">Mayon</a></h2> 
+		<nav>
+			<li><a href="#home">Home</a></li> 
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li> 
+			<li><a href="#contact">Contacts</a></li>
+		</nav> 
+	</header>
+	<section class="banner-area">
+		<div class="banner-img"></div>
+		<h1>Mayon Volcano</h1>
+		<h3>Explore the Beauty of Mayon Volcano</h3>
+		<a href="#contact" class="banner-btn">Contact us</a>
+	</section>
+
+	<section class="about-area" id="about">
+		<h3 class="section-title">About Us</h3>
+		<ul class="about-content">
+			<li class="about-left"></li>
+			<li class="about-right">
+				<h2>About our Company</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="" class="about-btn">Learn more</a>
+			</li>
+		</ul>
+	</section>
+
+<!--Slider-->
+<div id="slides" class="carousel slide" data-ride="carousel"> 
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="img/bg3.png">
+	</div>
+	<div class="carousel-item">
+		<img src="img/bg4.png">
+	</div>
+	<div class="carousel-item">
+		<img src="img/bg5.png">
+	</div>
+	<div class="carousel-item">
+		<img src="img/bg6.png">
+	</div>
+	
+</div>
+</div>
+
+<section class="services-area" id="services">
+	<h3 class="section-title">Services</h3>
+	<ul class="services-content">
+		<li>
+			<i class="fa fa-compass"></i>
+			<h4>Explore</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</li>
+
+		<li>
+			<i class="fa fa-home"></i>
+			<h4>Reservation</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</li>
+		<li>
+			<i class="fa fa-camera"></i>
+			<h4>Photography</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</li>
+			
+	</ul>
+</section>
+
+<section class="contact-area" id="contact">
+	<h3 class="section-title">Contact</h3>
+	<ul class="contact-content">
+		<li>
+			<i class="fa fa-map-marker"></i>
+			<p>123 Agusan Lane</p>
+		</li>
+		<li>
+			<i class="fa fa-phone"></i>
+			<p>+639990116311</p>
+		</li>
+
+		<li>
+			<i class="fa fa-envelope"></i>
+			<p>aprilmayon@gmail.com <br>aprilmayon.github.io/index.html</p>
+		</li>
+	</ul>
+		
+</section>
+
+<footer>
+	<p>April T. Mayon</p>
+</footer>
+
+</body>
+</html>
+
